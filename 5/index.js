@@ -1,7 +1,16 @@
 /**
  * Напишите скрипт, который считает количество секунд в часе, в сутках, в месяце.
  */
-
+const secondsInMinute = 60;
+const minutesInHour = 60;
+const secondsInHour = secondsInMinute * minutesInHour;
+const hourInDay = 24;
+const dayInMonth = 30;
+const secondsInDay = secondsInHour * hourInDay;
+const secondsInMonth = secondsInDay * dayInMonth;
+console.log(secondsInHour);
+console.log(secondsInDay);
+console.log(secondsInMonth);
 /**
  * Создайте три переменные - час, минута, секунда.
  * С их помощью выведите текущее время в формате 'час:минута:секунда'.
