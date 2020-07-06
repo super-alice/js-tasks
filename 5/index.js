@@ -15,21 +15,25 @@ console.log(secondsInMonth);
  * Создайте три переменные - час, минута, секунда.
  * С их помощью выведите текущее время в формате 'час:минута:секунда'.
  */
-
+const hours = 11;
+const minutes = 56;
+const seconds = 55;
+console.log(hours + ':' + minutes + ':' + seconds);
 /**
  * Создайте переменную, присвойте ей число.Возведите это число в квадрат.Выведите его на экран.
  */
-
+let number = 11;
+console.log(number * number);
 /**
  * Переделайте этот код так, чтобы в нем использовались операции +=, -=, *=, /=.
  * Количество строк кода при этом не должно измениться.
  */
 
 let num = 47;
-num = num + 7;
-num = num - 18;
-num = num * 10;
-num = num / 15;
+num += 7;
+num -= 18;
+num *= 10;
+num /= 15;
 alert(num);
 
 /**
@@ -38,7 +42,7 @@ alert(num);
  */
 
 num = 10;
-num = num + 1;
-num = num + 1;
-num = num - 1;
+num ++;
+num ++;
+num --;
 alert(num);
